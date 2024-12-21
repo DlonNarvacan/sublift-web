@@ -51,10 +51,11 @@
   border-radius: 8px;
   appearance: none;
   background-color: #ff9800;
-  color: white;
+  color: black;
   cursor: pointer;
   border: none;
   font-size: clamp(0.875rem, 4vw, 1rem);
+  font-weight: 500;
 }
 
 .select-arrow {

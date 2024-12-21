@@ -8,7 +8,7 @@ import './styles.css';
 export const Calculator: React.FC = () => {
   const [calculationType, setCalculationType] = useState<string>(calculationTypes[0]);
   const [inputs, setInputs] = useState<Record<string, string>>({});
-  const [result, setResult] = useState<string>('0.3276783800731856');
+  const [result, setResult] = useState<string>('0');
   
   const calculator = new PerformanceCalculator();
 
@@ -112,9 +112,9 @@ export const Calculator: React.FC = () => {
             ))}
           </select>
           <div className="select-arrow">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-              <path d="M4 6L8 10L12 6" stroke="white" strokeWidth="2"/>
-            </svg>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M4 6L8 10L12 6" stroke="black" strokeWidth="2"/>  /* Change stroke="white" to stroke="black" */
+          </svg>
           </div>
         </div>
 
