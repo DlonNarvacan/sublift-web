@@ -113,7 +113,7 @@ export const Calculator: React.FC = () => {
           </select>
           <div className="select-arrow">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M4 6L8 10L12 6" stroke="black" strokeWidth="2"/>  /* Change stroke="white" to stroke="black" */
+            <path d={"M4 6L8 10L12 6"} stroke="black" strokeWidth="2"/>
           </svg>
           </div>
         </div>
